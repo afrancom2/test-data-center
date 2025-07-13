@@ -12,18 +12,18 @@ Este proyecto es el backend de una aplicación para realizar recargas de diferen
 
 ## ▶️ Ejecución del Proyecto
 
-1. 📦 Clona el repositorio:
+1.  Clona el repositorio:
 
    ```bash
    git clone https://github.com/afrancom2/test-data-center
    cd test-data-center
    ```
 
-2. 🧠 Abre el proyecto preferiblemente con **IntelliJ IDEA** ya que se usa Lombok
+2.  Abre el proyecto preferiblemente con **IntelliJ IDEA** ya que se usa Lombok
 
-3. 🚀 Ejecuta la app desde el archivo `TestApplication.java`
+3.  Ejecuta la app desde el archivo `TestApplication.java`
 
-4. 🌐 Accede a la documentación Swagger:
+4.  Accede a la documentación Swagger:
 
    [http://localhost:8080/data-center/swagger-ui.html](http://localhost:8080/data-center/swagger-ui.html)
 
@@ -31,7 +31,7 @@ Este proyecto es el backend de una aplicación para realizar recargas de diferen
 
 ## 📄 Documentación Swagger
 
-📌 Swagger UI disponible en:
+ Swagger UI disponible en:
 
 [http://localhost:8080/data-center/swagger-ui.html](http://localhost:8080/data-center/swagger-ui.html)
 
@@ -39,7 +39,7 @@ Este proyecto es el backend de una aplicación para realizar recargas de diferen
 
 ## 🔗 Endpoints Disponibles
 
-| 🧪 Método | 🌐 Endpoint                         | 📋 Descripción                               |
+|  Método  |  Endpoint                          |  Descripción                                |
 |----------|------------------------------------|---------------------------------------------|
 | GET      | `/operator`                        | Lista todos los operadores                  |
 | GET      | `/sale`                            | Lista todos los vendedores                  |
@@ -55,12 +55,12 @@ Este proyecto es el backend de una aplicación para realizar recargas de diferen
 
 ```
 com.data.center.api
-├── config               # ⚙️ Configuración de data inicial y CORS
-├── controller           # 🎮 Controladores REST y manejo de errores
-├── domain               # 🗃️ Entidades JPA (Operator, Recharge, Sale)
-├── infraestructure      # 🧠 Lógica de negocio
-├── models               # 📩 Request y response
-├── util                 # ⚠️ Enums y excepciones
+├── config               #  Configuración de data inicial y CORS
+├── controller           #  Controladores REST y manejo de errores
+├── domain               #  Entidades JPA (Operator, Recharge, Sale)
+├── infraestructure      #  Lógica de negocio
+├── models               #  Request y response
+├── util                 #  Enums y excepciones
 └── resources
     └── application.properties
 ```
@@ -69,11 +69,11 @@ com.data.center.api
 
 ## 🛠️ Tecnologías Utilizadas
 
-- ☕ Java 17  
-- 🧰 Spring Boot 3.X  
-- 🐘 PostgreSQL  
-- 📚 Swagger / Springdoc OpenAPI  
-- 💡 IntelliJ IDEA Community  
+-  Java 17  
+-  Spring Boot 3.X  
+-  PostgreSQL  
+-  Swagger / Springdoc OpenAPI  
+-  IntelliJ IDEA Community  
 
 ---
 
