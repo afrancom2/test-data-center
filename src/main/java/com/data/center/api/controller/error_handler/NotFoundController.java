@@ -2,7 +2,7 @@ package com.data.center.api.controller.error_handler;
 
 import com.data.center.api.models.response.error.BaseErrorResponse;
 import com.data.center.api.models.response.error.ErrorResponse;
-import com.data.center.util.exceptions.NotFoundException;
+import com.data.center.api.util.exceptions.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

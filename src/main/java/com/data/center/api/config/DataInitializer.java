@@ -1,11 +1,11 @@
 package com.data.center.api.config;
 
-import com.data.center.domain.entity.Operator;
-import com.data.center.domain.entity.Recharge;
-import com.data.center.domain.entity.Sale;
-import com.data.center.domain.repository.OperatorRepository;
-import com.data.center.domain.repository.RechargeRepository;
-import com.data.center.domain.repository.SaleRepository;
+import com.data.center.api.domain.entity.Operator;
+import com.data.center.api.domain.entity.Recharge;
+import com.data.center.api.domain.entity.Sale;
+import com.data.center.api.domain.repository.OperatorRepository;
+import com.data.center.api.domain.repository.RechargeRepository;
+import com.data.center.api.domain.repository.SaleRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

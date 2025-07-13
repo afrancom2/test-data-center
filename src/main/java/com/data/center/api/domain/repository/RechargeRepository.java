@@ -1,8 +1,8 @@
-package com.data.center.domain.repository;
+package com.data.center.api.domain.repository;
 
-import com.data.center.domain.entity.Operator;
-import com.data.center.domain.entity.Recharge;
-import com.data.center.domain.entity.Sale;
+import com.data.center.api.domain.entity.Recharge;
+import com.data.center.api.domain.entity.Sale;
+import com.data.center.api.domain.entity.Operator;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

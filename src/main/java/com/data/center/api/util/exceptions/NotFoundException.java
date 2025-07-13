@@ -1,4 +1,4 @@
-package com.data.center.util.exceptions;
+package com.data.center.api.util.exceptions;
 
 public class NotFoundException extends RuntimeException {
     private static final String ERROR_MESSAGE_GENERAL = "Not found for %s";

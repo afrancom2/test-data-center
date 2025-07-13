@@ -1,4 +1,4 @@
-package com.data.center.domain.entity;
+package com.data.center.api.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

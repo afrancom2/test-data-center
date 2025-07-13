@@ -1,8 +1,8 @@
-package com.data.center.infraestructure.services;
+package com.data.center.api.infraestructure.services;
 
-import com.data.center.domain.entity.Operator;
-import com.data.center.domain.repository.OperatorRepository;
-import com.data.center.infraestructure.abstract_services.IOperatorService;
+import com.data.center.api.domain.entity.Operator;
+import com.data.center.api.domain.repository.OperatorRepository;
+import com.data.center.api.infraestructure.abstract_services.IOperatorService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

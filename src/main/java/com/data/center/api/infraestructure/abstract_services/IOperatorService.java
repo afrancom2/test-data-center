@@ -1,6 +1,6 @@
-package com.data.center.infraestructure.abstract_services;
+package com.data.center.api.infraestructure.abstract_services;
 
-import com.data.center.domain.entity.Operator;
+import com.data.center.api.domain.entity.Operator;
 
 import java.util.List;
 import java.util.Optional;

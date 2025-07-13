@@ -1,4 +1,4 @@
-package com.data.center.util.enums;
+package com.data.center.api.util.enums;
 
 public enum StatusHttp {
     RECHARGE_CREATED("Recarga creada exitosamente"),
